@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Cti_Dataflow>
+            <version>0.1.0</version>
+        </Cti_Dataflow>
+    </modules>
+    <global>
+        <models>
+            <cti_dataflow>
+                <class>Cti_Dataflow_Model</class>
+                <resourceModel>cti_dataflow_resource</resourceModel>
+            </cti_dataflow>
+            <dataflow>
+                <rewrite>
+                    <profile>Cti_Dataflow_Model_Profile</profile>
+                </rewrite>
+            </dataflow>
+        </models>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <system_convert_profile_run>Cti_Dataflow_Block_Adminhtml_System_Convert_Profile_Run</system_convert_profile_run>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+</config>

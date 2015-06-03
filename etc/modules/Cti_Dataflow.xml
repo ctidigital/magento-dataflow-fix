@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Cti_Dataflow>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Cti_Dataflow>
+    </modules>
+</config>
