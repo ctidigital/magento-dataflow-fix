@@ -1,0 +1,13 @@
+{
+    "name": "ctidigital/magento-dataflow-fix",
+    "description": "Magento Dataflow Fix",
+    "type": "magento-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CTI Digital",
+            "email": "sales@ctidigital.com"
+        }
+    ],
+    "require": {}
+}
