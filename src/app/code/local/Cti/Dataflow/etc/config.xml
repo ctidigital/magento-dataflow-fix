@@ -25,4 +25,11 @@
             </adminhtml>
         </blocks>
     </global>
+    <phpunit>
+        <suite>
+            <modules>
+                <Cti_Dataflow/>
+            </modules>
+        </suite>
+    </phpunit>
 </config>
